@@ -1,0 +1,25 @@
+{
+    "name": "asugai/cake-php-notification-manager",
+    "type": "cakephp-plugin",
+    "description": "MySQL and CRON based notification manager for CakePHP.",
+    "keywords": ["notifications", "cakephp", "email", "push", "urban airship", "twilio", "sms", "api"],
+    "homepage": "http://github.com/asugai/cake-php-notification-manager",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Andre Sugai",
+            "email": "andre@orainteractive.com"
+        }
+    ],
+    "require": {
+        "composer/installers": "~1.0",
+        "urbanairship/urbanairship": ">=0.1.3",
+        "twilio/sdk": ">=3.10.0"
+    },
+    "config": {
+        "vendor-dir": "Vendor"
+    },
+    "extra": {
+        "installer-name": "NotificationManager"
+    }
+}
